@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter serrano3gxx serranodsdd serranodsxx serranoltebmc serranoltespr serranoltexx,$(TARGET_DEVICE)),
+ifneq ($(filter serrano3gxx serranodsdd serranodsxx serranoltebmc serranoltespr serranoltexx,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libtime_genoff
